@@ -1,0 +1,57 @@
+
+@import "water/dark.css";
+{
+    box-sizing: border-box;
+}
+
+.table
+{
+    display: flex;
+    align-items: center;
+    flex-basis:64em;
+}
+
+.row 
+{
+    display: flex;
+    flex-wrap: wrap ;
+    /*
+    align-items: left;
+    align-items: right;
+    */
+    justify-content:flex-end;
+    flex-basis:64em;
+}
+
+.columna
+{
+    text-align:right;
+
+    flex-grow:0;
+    /*flex-basis:10%;
+    min-width:content;
+     */
+    
+    padding: 2em;
+}
+.columnb
+{
+    text-align:left;
+
+    flex-grow:1;
+    /*
+    flex-basis:70%;
+    */
+    /*min-width:content;
+     */
+
+    padding: 2em;
+}
+
+:root 
+{
+    --background-alt: var(--background-main);
+    --background: var(--background-main);
+    --links: goldenrod; 
+    --links: goldenrod;
+}
